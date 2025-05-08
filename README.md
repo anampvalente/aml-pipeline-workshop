@@ -66,7 +66,7 @@ The pipeline consists of five reusable components:
 
 ### Using the Python SDK
 
-1. Open the Jupyter notebook `sdk/nyc_taxi_data_regression.ipynb`.
+1. Open the Jupyter notebook `sdk/nyc_taxi_data_regression.ipynb` or run the python file nyc_taxi_data_regression.py
 2. Follow the steps to:
    - Connect to your Azure ML workspace.
    - Load components from YAML files.
@@ -85,7 +85,7 @@ The pipeline consists of five reusable components:
 
 - [Azure ML Component Pipelines Documentation](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-create-component-pipelines-cli?view=azureml-api-2)
 - [Azure ML Python SDK Reference](https://learn.microsoft.com/en-us/python/api/overview/azure/ai-ml-readme)
-- [Component YAML Schema Reference](https://learn.microsoft.com/en-us/azure/machine-learning/reference-yaml-component)
+- [Component YAML Schema Reference]([https://learn.microsoft.com/en-us/azure/machine-learning/reference-yaml-component](https://learn.microsoft.com/en-us/azure/machine-learning/reference-yaml-component-pipeline?view=azureml-api-2)
 
 ## Contributing
 
