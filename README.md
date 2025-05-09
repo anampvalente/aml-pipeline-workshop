@@ -85,7 +85,7 @@ The pipeline consists of five reusable components:
 
 - [Azure ML Component Pipelines Documentation](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-create-component-pipelines-cli?view=azureml-api-2)
 - [Azure ML Python SDK Reference](https://learn.microsoft.com/en-us/python/api/overview/azure/ai-ml-readme)
-- [Component YAML Schema Reference]([https://learn.microsoft.com/en-us/azure/machine-learning/reference-yaml-component](https://learn.microsoft.com/en-us/azure/machine-learning/reference-yaml-component-pipeline?view=azureml-api-2)
+- [Component YAML Schema Reference](https://learn.microsoft.com/en-us/azure/machine-learning/reference-yaml-component](https://learn.microsoft.com/en-us/azure/machine-learning/reference-yaml-component-pipeline?view=azureml-api-2)
 
 ## Contributing
 
