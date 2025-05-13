@@ -12,7 +12,7 @@ jobs:
       wget https://azuremlexamples.blob.core.windows.net/datasets/cifar-10-python.tar.gz;
       tar -xvzf cifar-10-python.tar.gz -C ${{outputs.cifar}};
       rm cifar-10-python.tar.gz;
-    compute: azureml:gpu-cluster
+    compute: azureml:cpu-cluster
     environment: azureml://registries/azureml/environments/sklearn-1.5/labels/latest
     outputs:
       cifar:
@@ -34,7 +34,7 @@ jobs:
         type: uri_folder
         mode: upload
     environment: azureml://registries/azureml/environments/acpt-pytorch-2.2-cuda12.1/labels/latest
-    compute: azureml:gpu-cluster
+    compute: azureml:cpu-cluster
     distribution:
       type: pytorch
       process_count_per_instance: 1
@@ -48,7 +48,7 @@ jobs:
       --model-dir ${{inputs.model_dir}}/model
     code: src/eval-model
     environment: azureml://registries/azureml/environments/acpt-pytorch-2.2-cuda12.1/labels/latest
-    compute: azureml:gpu-cluster
+    compute: azureml:cpu-cluster
     distribution:
       type: pytorch
       process_count_per_instance: 1
