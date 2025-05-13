@@ -1,0 +1,10 @@
+name: aml_pipeline_env
+channels:
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - https://repo.anaconda.com/pkgs/msys2
+dependencies:
+  - python=3.10.11
+  - ipykernel
+prefix: C:\Users\avalente\AppData\Local\anaconda3\envs\aml_pipeline_env
