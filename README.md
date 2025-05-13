@@ -7,6 +7,9 @@ This repository demonstrates how to create and manage Azure Machine Learning pip
 - **Azure Account**: An active Azure subscription ([Create one for free](https://azure.microsoft.com/free/?WT.mc_id=A261C142F))
 - **Azure ML Workspace**: A configured Azure Machine Learning workspace with a compute cluster ([Configuration guide](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace?view=azureml-api-2))
 - **Python Environment**: Python 3.7+ with Azure ML SDK v2 installed ([Installation instructions](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-configure-environment?view=azureml-api-2))
+- - **Required Versions**:
+  - Azure CLI: 2.72.0
+  - Azure ML SDK v2: 1.27.0 (`pip install azure-ai-ml==1.27.0`)
 
 ## Repository Structure
 
